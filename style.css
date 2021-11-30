@@ -1,0 +1,93 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+html,
+body {
+  font-family: "Outfit", sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  height: 800px;
+}
+
+:root {
+  --main-gold: #a89365;
+  --main-gray: #575757;
+}
+
+.slider {
+  height: 800px;
+  max-width: 1760px;
+}
+
+.slide {
+  width: 410px;
+}
+
+.slide_img {
+  width: 410px;
+  height: 540px;
+}
+
+.slide_header {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: var(--main-gold);
+  margin: 20px 0;
+}
+
+.slide_text {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: var(--main-gray);
+}
