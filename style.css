@@ -1,3 +1,6 @@
+@import 'slider-style.css';
+@import 'constants.css';
+
 *,
 *::before,
 *::after {
@@ -49,17 +52,17 @@ button:hover {
   margin: 0 auto;
   display: flex;
   justify-content: center;
-  height: 800px;
-}
-
-:root {
-  --main-gold: #a89365;
-  --main-gray: #575757;
+  max-width: 1780px;
+  min-width: 0;
 }
 
 .slider {
-  height: 800px;
-  max-width: 1760px;
+  min-width: 0;
+  position: relative;
+}
+
+.item {
+  padding: 0 20px;
 }
 
 .slider_slide {
