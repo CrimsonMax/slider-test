@@ -68,3 +68,15 @@
   border-radius: 50%;
   font-size: 0;
 }
+
+
+@media (max-width: 1280px) {
+
+  .slick-arrow.slick-prev{
+    left: -24px;
+  }
+
+  .slick-arrow.slick-next{
+    right: -24px;
+  }
+}

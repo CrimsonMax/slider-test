@@ -1,9 +1,9 @@
 $(document).ready(function(){
   $('.slider').slick({
-    arrows: true,
+    arrows: false,
     dots: true,
     adaptiveHeight: true,
-    slidesToShow: 4,
+    slidesToShow: 1,
     slidesToScroll: 1,
     speed: 300,
     easing: 'linear',
@@ -24,5 +24,23 @@ $(document).ready(function(){
     slidesPerRow: 1,
     vertical: false,
     verticalSwiping: false,
+    responsive: [
+      {
+        breakpoint: 1280,
+        settings: {
+          slidesToShow: 4,
+          dots: false,
+          arrows: true,
+        }
+      },
+      {
+        breakpoint: 601,
+        settings: {
+          slidesToShow: 2,
+          arrows: false,
+        }
+      },
+    ],
+    mobileFirst: true,
   })
 });
